@@ -6,7 +6,10 @@ extern Learner::Application* Learner::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Start Learner Engine\n");
+	Learner::Log::Init();
+	LR_CORE_WARN("Initialized Engine Log!!!");
+	LR_INFO("Initialized App Log! Var={0}", 5);
+
 	auto app = Learner::CreateApplication();
 	app->Run();
 	delete app;
