@@ -13,7 +13,6 @@ namespace Learner {
 
 	void Application::Run() 
 	{
-		printf("Run\n");
 		while (true);
 	}
 }

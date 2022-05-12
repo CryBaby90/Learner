@@ -8,7 +8,7 @@ int main(int argc, char** argv)
 {
 	Learner::Log::Init();
 	LR_CORE_WARN("Initialized Engine Log!!!");
-	LR_INFO("Initialized App Log! Var={0}", 5);
+	LR_INFO("Initialized App Log!");
 
 	auto app = Learner::CreateApplication();
 	app->Run();
