@@ -1,5 +1,4 @@
 #pragma once
-#include<stdio.h>
 
 #ifdef LR_PLATFORM_WINDOWS
 	#ifdef LEARNER_BUILD_DLL
